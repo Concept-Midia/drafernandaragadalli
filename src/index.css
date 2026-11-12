@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #FAF8F5;
+    color: #272625;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom luxury subtle glows and borders */
+.glass-nav {
+  background: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(220, 215, 205, 0.4);
+}
+
+.subtle-shadow {
+  box-shadow: 0 10px 40px -10px rgba(67, 97, 70, 0.12);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 20px 50px -15px rgba(45, 55, 48, 0.08), 0 0 1px 1px rgba(225, 220, 210, 0.6);
+}
+
+/* Smooth text render */
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
