@@ -23,8 +23,14 @@ export const Hero: React.FC = () => {
         />
       </picture>
 
-      {/* Smooth Gradient Overlay on Mobile */}
-      <div className="absolute inset-0 pointer-events-none lg:hidden bg-gradient-to-b from-transparent from-25% via-[#FAF6F0]/85 via-50% to-[#FAF6F0] to-88% z-[1]" />
+      {/* Smooth Soft Light Cream Mask on Lower Section (Mobile) */}
+      <div
+        className="absolute inset-0 pointer-events-none lg:hidden z-[1]"
+        style={{
+          background:
+            'linear-gradient(to bottom, transparent 0%, transparent 63%, rgba(240, 231, 220, 0.75) 74%, rgba(238, 228, 215, 0.95) 88%, #EDE3D5 100%)',
+        }}
+      />
 
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 w-full relative z-10 pb-2 sm:pb-6 lg:pb-0">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end lg:items-center">
@@ -68,7 +74,7 @@ export const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="mb-4 sm:mb-6 lg:mb-9 max-w-[330px] sm:max-w-lg lg:max-w-xl mx-auto lg:mx-0"
             >
-              <p className="font-sans text-[13px] sm:text-base lg:text-lg text-charcoal-700/85 font-light leading-relaxed">
+              <p className="font-sans text-[13px] sm:text-base lg:text-lg text-black lg:text-charcoal-700/85 font-light leading-relaxed">
                 Cirurgiã-Dentista (CRO-SC 9331) especialista em facetas de resina e lentes em cerâmica. Planejamento anatômico e odontologia estética com máxima naturalidade e sofisticação em Videira - SC.
               </p>
             </motion.div>
