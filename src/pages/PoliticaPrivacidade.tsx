@@ -24,7 +24,7 @@ export const PoliticaPrivacidade: React.FC<{ onBack: () => void }> = ({ onBack }
             Política de Privacidade
           </h1>
           <p className="text-sm text-charcoal-700/80">
-            Dra. Letícia Almeida · Especialista em Full Face & HOF · Atualizado em 2026
+            Dra. Fernanda Ragadalli · Cirurgiã-Dentista · CRO-SC 9331 · Atualizado em 2026
           </p>
         </div>
 
@@ -35,7 +35,7 @@ export const PoliticaPrivacidade: React.FC<{ onBack: () => void }> = ({ onBack }
               1. Compromisso com a sua Privacidade
             </h2>
             <p>
-              A Dra. Letícia Almeida preza pela máxima transparência, segurança e sigilo de todos os dados pessoais e clínicos compartilhados neste site e em atendimentos presenciais. Esta Política de Privacidade descreve como são tratadas e protegidas as suas informações, em total conformidade com a <strong>Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD)</strong> e as normas éticas do Conselho Federal de Odontologia.
+              A Dra. Fernanda Ragadalli preza pela máxima transparência, segurança e sigilo de todos os dados pessoais e clínicos compartilhados neste site e em atendimentos presenciais. Esta Política de Privacidade descreve como são tratadas e protegidas as suas informações, em total conformidade com a <strong>Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD)</strong> e as normas éticas do Conselho Federal de Odontologia.
             </p>
           </section>
 
@@ -61,7 +61,7 @@ export const PoliticaPrivacidade: React.FC<{ onBack: () => void }> = ({ onBack }
               3. Sigilo Profissional e Não Compartilhamento
             </h2>
             <p>
-              Nenhum dado pessoal, número de contato ou informação de prontuário é vendido, alugado ou compartilhado com terceiros para fins de marketing ou exploração comercial. Os dados são acessados unicamente pela responsável técnica Dra. Letícia Almeida para viabilizar a sua assistência estética com total segurança.
+              Nenhum dado pessoal, número de contato ou informação de prontuário é vendido, alugado ou compartilhado com terceiros para fins de marketing ou exploração comercial. Os dados são acessados unicamente pela responsável técnica Dra. Fernanda Ragadalli para viabilizar a sua assistência odontológica estética com total segurança.
             </p>
           </section>
 
@@ -79,7 +79,7 @@ export const PoliticaPrivacidade: React.FC<{ onBack: () => void }> = ({ onBack }
               5. Contato sobre Privacidade
             </h2>
             <p>
-              Para qualquer dúvida sobre o tratamento de dados pessoais, entre em contato diretamente com a Dra. Letícia Almeida pelo WhatsApp oficial ou pelo consultório localizado em Rio Verde - GO.
+              Para qualquer dúvida sobre o tratamento de dados pessoais, entre em contato diretamente com a Dra. Fernanda Ragadalli pelo WhatsApp oficial ou pelo consultório localizado em Videira - SC.
             </p>
           </section>
         </div>

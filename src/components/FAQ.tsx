@@ -12,33 +12,33 @@ interface FAQItem {
 const faqData: FAQItem[] = [
   {
     id: 1,
-    question: 'Os procedimentos de Full Face e harmonização deixam o rosto artificial?',
+    question: 'As facetas de resina e lentes em cerâmica deixam o sorriso artificial?',
     answer:
-      'Não. Minha filosofia é estritamente pautada na naturalidade anatômica e na sofisticação sutil. Atuo respeitando as proporções exclusivas da sua face, devolvendo suporte e sustentação sem qualquer risco de transformá-la ou deixar traços exagerados.',
+      'Não. A filosofia da Dra. Fernanda Ragadalli é a estética dental com máxima naturalidade. Cada faceta é planejada e esculpida respeitando a textura, translucidez, mímica labial e proporções anatômicas do seu rosto, garantindo um sorriso iluminado, harmônico e elegante sem aspecto artificial.',
   },
   {
     id: 2,
-    question: 'Quanto tempo duram os resultados dos procedimentos?',
+    question: 'Qual é a diferença entre facetas de resina e lentes de cerâmica?',
     answer:
-      'A toxina botulínica costuma ter durabilidade entre 4 e 6 meses. Já os preenchimentos com ácido hialurônico de alta pureza e os bioestimuladores de colágeno duram de 12 a 24 meses, promovendo um estímulo contínuo e melhora progressiva da qualidade e firmeza da pele.',
+      'As facetas de resina são esculpidas camada por camada diretamente sobre os dentes, com resultado imediato e excelente custo-benefício. Já as lentes em cerâmica (porcelana) são lâminas ultrafinas produzidas em laboratório, apresentando brilho vítreo perene, altíssima resistência e imunidade a manchas ao longo dos anos.',
   },
   {
     id: 3,
-    question: 'Os procedimentos causam dor? Como é o controle do desconforto?',
+    question: 'É necessário desgastar muito os dentes para colocar facetas?',
     answer:
-      'O seu conforto é prioridade absoluta. Em todos os procedimentos utilizo anestésicos tópicos de padrão ouro e, quando indicado, anestesia local confortável. Utilizo microcânulas atraumáticas para garantir uma experiência serena, segura e livre de dor.',
+      'Não. Trabalhamos sob os princípios da odontologia minimamente invasiva e preservação biológica. Na grande maioria dos casos de facetas de resina e lentes em cerâmica, o desgaste dental é mínimo ou até zero, mantendo a estrutura natural dos seus dentes totalmente protegida e íntegra.',
   },
   {
     id: 4,
-    question: 'Existe tempo de repouso (downtime) após as sessões?',
+    question: 'Quanto tempo duram as facetas de resina e as lentes de cerâmica?',
     answer:
-      'A grande maioria dos procedimentos permite retorno imediato às suas atividades diárias. Recomendo apenas evitar exercícios físicos intensos, saunas e exposição solar direta nas primeiras 24 a 48 horas após a aplicação.',
+      'As facetas de resina têm longevidade média de 4 a 7 anos, com manutenções e polimentos periódicos simples. Já as lentes de cerâmica podem durar de 10 a 20 anos ou mais. A durabilidade está diretamente ligada aos bons hábitos de higiene e às consultas preventivas regulares.',
   },
   {
     id: 5,
-    question: 'Como descubro qual é o protocolo de Full Face ideal para mim?',
+    question: 'Como descubro qual é o tratamento ideal para o meu sorriso?',
     answer:
-      'Tudo se inicia com uma consulta de avaliação individualizada e minuciosa comigo no consultório em Rio Verde - GO. Analiso a proporção da sua face, mímica muscular, áreas de reabsorção e expectativas, traçando um plano exclusivo e personalizado para você.',
+      'Tudo se inicia com uma consulta de avaliação individualizada e registro fotográfico com a Dra. Fernanda Ragadalli no consultório em Videira - SC. Avaliamos a saúde bucal, o alinhamento, a tonalidade e as suas expectativas para desenhar o plano de tratamento perfeito.',
   },
 ];
 
@@ -50,7 +50,7 @@ export const FAQ: React.FC = () => {
   };
 
   const whatsappUrl =
-    'https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20tenho%20uma%20dúvida%20sobre%20os%20seus%20procedimentos.';
+    'https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20tenho%20uma%20dúvida%20sobre%20as%20facetas%20e%20tratamentos.';
 
   return (
     <section
@@ -106,7 +106,7 @@ export const FAQ: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="font-sans text-base text-charcoal-700/80 font-light leading-relaxed mb-8"
             >
-              Reuni aqui os principais esclarecimentos sobre os procedimentos de Full Face e harmonização que realizo em Rio Verde - GO. Se você tiver alguma dúvida específica sobre o seu caso, converse diretamente comigo pelo WhatsApp.
+              Reuni aqui os principais esclarecimentos sobre os tratamentos de facetas de resina, lentes em cerâmica e estética dental que realizo em Videira - SC. Se você tiver alguma dúvida específica sobre o seu sorriso, converse diretamente comigo pelo WhatsApp.
             </motion.p>
 
             {/* Direct WhatsApp Assistance Button */}

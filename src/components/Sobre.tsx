@@ -38,8 +38,8 @@ export const Sobre: React.FC = () => {
               }}
             >
               <img
-                src="/sobre-a-dra.png"
-                alt="Dra. Letícia Almeida - Cirurgiã-Dentista e Especialista em Full Face"
+                src="/sobre-a-dra.jpg"
+                alt="Dra. Fernanda Ragadalli"
                 className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
@@ -60,8 +60,8 @@ export const Sobre: React.FC = () => {
                 <Sparkles className="w-4 h-4 text-gold-500" />
               </div>
               <div>
-                <p className="text-xs font-bold text-charcoal-900 leading-tight">Dra. Letícia Almeida</p>
-                <p className="text-[11px] text-brand-600 font-medium">Injetora & Mentora HOF · Rio Verde - GO</p>
+                <p className="text-xs font-bold text-charcoal-900 leading-tight">Dra. Fernanda Ragadalli</p>
+                <p className="text-[11px] text-brand-600 font-medium">Estética Dental · CRO-SC 9331</p>
               </div>
             </motion.div>
           </div>
@@ -88,8 +88,8 @@ export const Sobre: React.FC = () => {
                 { text: 'Conheça' },
                 { text: 'a', hasLineBreak: true },
                 { text: 'Dra.', isItalic: true, colorClass: 'text-brand-600' },
-                { text: 'Letícia', isItalic: true, colorClass: 'text-brand-600' },
-                { text: 'Almeida', isItalic: true, colorClass: 'text-brand-600' },
+                { text: 'Fernanda', isItalic: true, colorClass: 'text-brand-600' },
+                { text: 'Ragadalli', isItalic: true, colorClass: 'text-brand-600' },
               ]}
             />
 
@@ -101,7 +101,7 @@ export const Sobre: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="font-sans text-lg sm:text-xl font-normal text-charcoal-900 leading-snug mb-5"
             >
-              Cirurgiã-Dentista, especialista em Full Face, injetora e mentora de Harmonização Orofacial (HOF). Minha missão é traduzir anatomia avançada em resultados refinados, elegantes e autênticos.
+              Cirurgiã-Dentista (CRO-SC 9331), especialista em facetas de resina e lentes em cerâmica. Minha missão é transformar sorrisos com máxima harmonia, sofisticação e naturalidade em Videira - SC.
             </motion.p>
 
             {/* Paragraph 2: Secondary description */}
@@ -112,7 +112,7 @@ export const Sobre: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="font-sans text-base text-charcoal-700/80 font-light leading-relaxed mb-8"
             >
-              Acredito que harmonizar não é transformar quem você é, mas sim devolver a sustentação, o contorno e o descanso que o tempo suaviza. Com um olhar tridimensional apurado e anos de prática clínica e docência mentorando novos injetores, desenvolvi uma metodologia exclusiva focada em proporção áurea, conforto absoluto e resultados que despertam elogios sem revelar intervenções óbvias.
+              Acredito que transformar um sorriso não é criar um padrão artificial, mas sim valorizar as proporções únicas de cada rosto. Com olhar estético apurado, técnica refinada e materiais de altíssima qualidade, desenvolvi uma abordagem focada em naturalidade, preservação da estrutura dental e resultados harmônicos que devolvem a confiança e o prazer de sorrir.
             </motion.p>
 
             {/* Credentials / Pillars list */}
@@ -125,19 +125,19 @@ export const Sobre: React.FC = () => {
             >
               <div className="flex items-center gap-2.5 text-xs sm:text-sm text-charcoal-800">
                 <CheckCircle2 className="w-4 h-4 text-brand-600 flex-shrink-0" />
-                <span>Especialista em Full Face & Visão Global</span>
+                <span>Facetas de Resina & Lentes em Cerâmica</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs sm:text-sm text-charcoal-800">
                 <CheckCircle2 className="w-4 h-4 text-brand-600 flex-shrink-0" />
-                <span>Mentora e Professora de Injetores de HOF</span>
+                <span>Cirurgiã-Dentista · CRO-SC 9331</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs sm:text-sm text-charcoal-800">
                 <CheckCircle2 className="w-4 h-4 text-brand-600 flex-shrink-0" />
-                <span>Produtos de Padrão Ouro Internacional</span>
+                <span>Estética Dental com Naturalidade</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs sm:text-sm text-charcoal-800">
                 <CheckCircle2 className="w-4 h-4 text-brand-600 flex-shrink-0" />
-                <span>Atendimento Exclusivo em Rio Verde - GO</span>
+                <span>Atendimento Exclusivo em Videira - SC</span>
               </div>
             </motion.div>
           </div>

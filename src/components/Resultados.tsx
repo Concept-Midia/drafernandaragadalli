@@ -4,12 +4,11 @@ import { MessageCircle } from 'lucide-react';
 import { RollInHeading } from './RollInHeading';
 
 const resultsList = [
-  { id: 1, image: '/resultado-1.jpg', label: 'Full Face & Sustentação' },
-  { id: 2, image: '/resultado-2.jpg', label: 'Harmonização Orofacial' },
-  { id: 3, image: '/resultado-3.jpg', label: 'Preenchimento Labial' },
-  { id: 4, image: '/resultado-4.jpg', label: 'Rinomodelação Estruturada' },
-  { id: 5, image: '/resultado-5.jpg', label: 'Rejuvenescimento Global' },
-  { id: 6, image: '/resultado-6.jpg', label: 'Contorno & Definição' },
+  { id: 1, image: '/resultado-1.jpg', label: 'Lentes de Contato Dental' },
+  { id: 2, image: '/resultado-2.jpg', label: 'Reabilitação do Sorriso' },
+  { id: 3, image: '/resultado-3.jpg', label: 'Facetas Estéticas' },
+  { id: 4, image: '/resultado-4.jpg', label: 'Transformação do Sorriso' },
+  { id: 5, image: '/resultado-5.jpg', label: 'Estética & Clareamento' },
 ];
 
 export const Resultados: React.FC = () => {
@@ -17,7 +16,7 @@ export const Resultados: React.FC = () => {
   const carouselItems = [...resultsList, ...resultsList];
 
   const whatsappUrl =
-    'https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20vi%20os%20resultados%20no%20site%20e%20gostaria%20de%20agendar%20minha%20avaliação.';
+    'https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20vi%20os%20resultados%20no%20site%20e%20gostaria%20de%20agendar%20minha%20avaliação.';
 
   return (
     <section
@@ -64,7 +63,7 @@ export const Resultados: React.FC = () => {
             className="md:max-w-md"
           >
             <p className="font-sans text-base sm:text-lg text-charcoal-700/80 leading-relaxed font-light">
-              Transformações autênticas que realizei respeitando a anatomia e a harmonia de cada paciente. Cada protocolo de Full Face é planejado para devolver sustentação e leveza sem descaracterizar sua identidade.
+              Transformações reais que realizei respeitando a anatomia e a harmonia de cada sorriso. Cada planejamento com facetas ou lentes é desenhado para devolver estética, proporção e luminosidade com total naturalidade.
             </p>
           </motion.div>
         </div>
@@ -86,7 +85,7 @@ export const Resultados: React.FC = () => {
               {/* Imagem do Resultado */}
               <img
                 src={item.image}
-                alt={`Resultado Dra. Letícia Almeida - ${item.label}`}
+                alt={`Resultado Dra. Fernanda Ragadalli - ${item.label}`}
                 className="w-full h-full object-cover object-center transform group-hover/card:scale-105 transition-transform duration-700 ease-out"
                 loading="lazy"
               />
@@ -119,7 +118,7 @@ export const Resultados: React.FC = () => {
         </a>
 
         <p className="font-sans text-xs text-charcoal-700/65 font-light mt-3">
-          Avaliação anatômica individual · Atendimento exclusivo com a Dra. Letícia Almeida em Rio Verde - GO
+          Avaliação estética individualizada · Atendimento exclusivo com a Dra. Fernanda Ragadalli em Videira - SC
         </p>
       </div>
     </section>

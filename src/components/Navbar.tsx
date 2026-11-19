@@ -11,7 +11,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onHomeClick }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      const scrolled = window.scrollY > 20;
+      setIsScrolled(scrolled);
+      if (!scrolled) {
+        setMobileMenuOpen(false);
+      }
     };
     handleScroll();
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -35,12 +39,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onHomeClick }) => {
   };
 
   const whatsappUrl =
-    'https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Letícia%20Almeida';
+    'https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Fernanda%20Ragadalli';
 
   return (
     <header
       className={`fixed left-0 right-0 z-50 flex justify-center px-4 sm:px-6 transition-all duration-300 pointer-events-none ${
-        isScrolled ? 'top-3 sm:top-4' : 'top-0'
+        isScrolled
+          ? 'top-3 sm:top-4 opacity-100 translate-y-0 visible'
+          : 'top-0 opacity-0 pointer-events-none -translate-y-4 invisible lg:opacity-100 lg:pointer-events-auto lg:translate-y-0 lg:visible'
       }`}
     >
       <div
@@ -61,10 +67,17 @@ export const Navbar: React.FC<NavbarProps> = ({ onHomeClick }) => {
               isScrolled ? 'text-lg sm:text-[20px]' : 'text-2xl sm:text-[26px]'
             }`}
           >
-            Dra. Letícia Almeida
+            Dra. Fernanda Ragadalli
           </span>
-          <span className="text-[10px] sm:text-[10.5px] tracking-[0.24em] uppercase text-[#C5A880] drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)] font-medium whitespace-nowrap -mt-0.5">
-            Harmonização Facial
+          <span
+            aria-label="Estética Dental"
+            className="w-full flex justify-between items-center text-[9.5px] sm:text-[10px] uppercase text-[#C5A880] drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)] font-medium select-none -mt-0.5"
+          >
+            {'ESTÉTICA DENTAL'.split('').map((char, index) => (
+              <span key={index} aria-hidden="true">
+                {char === ' ' ? '\u00A0\u00A0' : char}
+              </span>
+            ))}
           </span>
         </a>
 

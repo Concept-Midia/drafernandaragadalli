@@ -22,7 +22,7 @@ const InstagramIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5'
 
 export const Contato: React.FC = () => {
   const whatsappUrl =
-    'https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20gostaria%20de%20agendar%20minha%20consulta%20de%20avaliação.';
+    'https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20gostaria%20de%20agendar%20minha%20consulta%20de%20avaliação.';
 
   return (
     <section
@@ -59,17 +59,16 @@ export const Contato: React.FC = () => {
                 words={[
                   { text: 'Pronta' },
                   { text: 'para' },
-                  { text: 'viver' },
-                  { text: 'a', hasLineBreak: true },
-                  { text: 'sua', isItalic: true, colorClass: 'text-brand-600' },
-                  { text: 'melhor', isItalic: true, colorClass: 'text-brand-600' },
-                  { text: 'versão?', isItalic: true, colorClass: 'text-brand-600' },
+                  { text: 'transformar' },
+                  { text: 'o', hasLineBreak: true },
+                  { text: 'seu', isItalic: true, colorClass: 'text-brand-600' },
+                  { text: 'sorriso?', isItalic: true, colorClass: 'text-brand-600' },
                 ]}
               />
 
               {/* Description */}
               <p className="font-sans text-base text-charcoal-700/80 leading-relaxed font-light mb-8 max-w-lg">
-                Agende sua consulta de avaliação individualizada diretamente comigo. Atendo pessoalmente cada paciente em Rio Verde - GO, garantindo atenção minuciosa, acolhimento e discrição absoluta.
+                Agende sua consulta de avaliação individualizada diretamente comigo. Atendo pessoalmente cada paciente em Videira - SC, garantindo atenção minuciosa, acolhimento e excelência estética para o seu sorriso.
               </p>
 
               {/* Contact Information List */}
@@ -81,20 +80,20 @@ export const Contato: React.FC = () => {
                   </div>
                   <div>
                     <span className="text-[11px] font-bold tracking-wider uppercase text-charcoal-800 block">
-                      DRA. LETÍCIA ALMEIDA · RIO VERDE, GO
+                      DRA. FERNANDA RAGADALLI · VIDEIRA, SC
                     </span>
                     <p className="text-sm text-charcoal-700/90 font-light mt-0.5">
-                      Rio Verde - Goiás
+                      Rua Benjamin Grazziotin, 124 · Bairro Alvorada
                     </p>
                     <p className="text-xs text-charcoal-700/70">
-                      Cirurgiã-Dentista · Especialista em Full Face & HOF
+                      Videira - SC · CEP 89562-010 · CRO-SC 9331
                     </p>
                   </div>
                 </div>
 
                 {/* 2. Instagram Item */}
                 <a
-                  href="https://www.instagram.com/draleticialbalmeida/"
+                  href="https://www.instagram.com/drafernandaragadalli/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 group cursor-pointer"
@@ -108,7 +107,7 @@ export const Contato: React.FC = () => {
                       <ExternalLink className="w-3 h-3 text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity" />
                     </span>
                     <p className="text-sm text-brand-700 font-medium mt-0.5 group-hover:text-brand-800 transition-colors">
-                      @draleticialbalmeida
+                      @drafernandaragadalli
                     </p>
                   </div>
                 </a>
@@ -123,7 +122,7 @@ export const Contato: React.FC = () => {
                       HORÁRIO DE ATENDIMENTO
                     </span>
                     <p className="text-sm text-charcoal-700/90 font-light mt-0.5">
-                      Segunda a Sexta: 08h às 18h · Sábados com hora marcada
+                      Segunda a Sexta: 08h às 18h · Atendimento com hora marcada
                     </p>
                   </div>
                 </div>
@@ -134,10 +133,10 @@ export const Contato: React.FC = () => {
             <div className="lg:col-span-6 flex flex-col items-center">
               {/* Map Preview Container */}
               <div className="w-full relative rounded-2xl sm:rounded-3xl overflow-hidden border border-[#E5DACD] shadow-md bg-stone-100 aspect-[4/3] max-h-[340px]">
-                {/* Embed Map centered on Rio Verde, GO */}
+                {/* Embed Map centered on Videira, SC */}
                 <iframe
-                  title="Localização do Consultório Dra. Letícia Almeida em Rio Verde - GO"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122244.5954930353!2d-50.9996956!3d-17.7925567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9361db8d4ce7c10b%3A0x6b6bbca582846874!2sRio%20Verde%20-%20GO!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                  title="Localização do Consultório Dra. Fernanda Ragadalli em Videira - SC"
+                  src="https://maps.google.com/maps?q=Rua+Benjamin+Grazziotin,+124,+Videira+-+SC&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   className="w-full h-full border-0 filter contrast-[1.02] brightness-[0.98]"
                   loading="lazy"
                   allowFullScreen
@@ -156,7 +155,7 @@ export const Contato: React.FC = () => {
               </a>
 
               <p className="text-xs text-charcoal-700/70 mt-3 text-center">
-                Atendimento pontual, seguro e humanizado · Rio Verde - GO
+                Atendimento pontual, acolhedor e humanizado · Videira - SC
               </p>
             </div>
           </div>

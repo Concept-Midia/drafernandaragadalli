@@ -252,8 +252,8 @@ export const Processo: React.FC = () => {
               {/* Step 01 Content (Inside Left Curve) */}
               <DesktopStepItem
                 number="01"
-                title="Avaliação Inicial"
-                description="Começamos com uma conversa detalhada para compreender seus desejos e necessidades, seguida de uma análise anatômica minuciosa da sua face."
+                title="Consulta & Análise Facial"
+                description="Conversamos detalhadamente sobre suas expectativas e realizamos o registro fotográfico e a avaliação estética completa da harmonia do seu sorriso."
                 align="left"
                 topPercent="18.64%"
                 progress={smoothProgress}
@@ -263,8 +263,8 @@ export const Processo: React.FC = () => {
               {/* Step 02 Content (Inside Right Curve) */}
               <DesktopStepItem
                 number="02"
-                title="Planejamento Exclusivo"
-                description="Desenvolvo um protocolo clínico sob medida para o seu rosto, selecionando técnicas e ativos de padrão ouro para realçar sua beleza sem exageros."
+                title="Planejamento do Sorriso"
+                description="Desenvolvemos o design personalizado do seu sorriso, calculando proporção, textura e cor para garantir máxima naturalidade antes da confecção."
                 align="right"
                 topPercent="42.37%"
                 progress={smoothProgress}
@@ -274,8 +274,8 @@ export const Processo: React.FC = () => {
               {/* Step 03 Content (Inside Left Curve) */}
               <DesktopStepItem
                 number="03"
-                title="Transformação Sutil"
-                description="Com precisão técnica e mãos leves, realizo o procedimento priorizando seu total conforto. Você conquista uma aparência rejuvenescida, leve e natural."
+                title="Escultura & Novo Sorriso"
+                description="Com precisão milimétrica e materiais nobres (facetas de resina ou cerâmica), realizamos a transformação do seu sorriso com total conforto e preservação dental."
                 align="left"
                 topPercent="66.10%"
                 progress={smoothProgress}
@@ -359,8 +359,8 @@ export const Processo: React.FC = () => {
               {/* Step 01 Content (Mobile Left Side) */}
               <MobileStepItem
                 number="01"
-                title="Avaliação Inicial"
-                description="Começamos com uma conversa detalhada para compreender seus desejos e necessidades, seguida de uma análise anatômica minuciosa da sua face."
+                title="Consulta & Análise Facial"
+                description="Conversamos detalhadamente sobre suas expectativas e realizamos o registro fotográfico e a avaliação estética completa da harmonia do seu sorriso."
                 align="left"
                 topPercent="18.64%"
                 progress={smoothProgress}
@@ -370,8 +370,8 @@ export const Processo: React.FC = () => {
               {/* Step 02 Content (Mobile Right Side) */}
               <MobileStepItem
                 number="02"
-                title="Planejamento Exclusivo"
-                description="Desenvolvo um protocolo médico sob medida para o seu rosto, selecionando técnicas e ativos de padrão ouro para realçar sua beleza sem exageros."
+                title="Planejamento do Sorriso"
+                description="Desenvolvemos o design personalizado do seu sorriso, calculando proporção, textura e cor para garantir máxima naturalidade antes da confecção."
                 align="right"
                 topPercent="42.37%"
                 progress={smoothProgress}
@@ -381,8 +381,8 @@ export const Processo: React.FC = () => {
               {/* Step 03 Content (Mobile Left Side) */}
               <MobileStepItem
                 number="03"
-                title="Transformação Sutil"
-                description="Com precisão técnica e mãos leves, realizo o procedimento priorizando seu total conforto. Você conquista uma aparência rejuvenescida, leve e natural."
+                title="Escultura & Novo Sorriso"
+                description="Com precisão milimétrica e materiais nobres (facetas de resina ou cerâmica), realizamos a transformação do seu sorriso com total conforto e preservação dental."
                 align="left"
                 topPercent="66.10%"
                 progress={smoothProgress}
@@ -402,21 +402,21 @@ export const Processo: React.FC = () => {
           >
             <div className="relative z-10">
               <h3 className="font-serif text-2xl sm:text-3xl font-semibold text-white leading-snug mb-3">
-                Pronta para realçar a <br />
-                sua beleza natural?
+                Pronta para transformar <br />
+                o seu sorriso?
               </h3>
 
               <p className="font-sans text-xs sm:text-sm text-[#F3EBE3]/80 font-light leading-relaxed mb-6 max-w-[290px] mx-auto">
-                Sua jornada para uma autoestima renovada começa em uma consulta exclusiva comigo.
+                Sua jornada para um sorriso harmônico, confiante e radiante começa em uma avaliação exclusiva comigo em Videira - SC.
               </p>
 
               <a
-                href="https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20gostaria%20de%20agendar%20minha%20avaliação%20inicial."
+                href="https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20gostaria%20de%20agendar%20minha%20avaliação%20inicial."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full sm:w-auto min-w-[240px] px-7 py-3.5 rounded-full bg-[#C5A880] hover:bg-[#B8986C] text-white font-semibold text-xs sm:text-sm tracking-wide shadow-[0_10px_25px_-5px_rgba(197,168,128,0.45)] hover:shadow-[0_14px_30px_-5px_rgba(197,168,128,0.6)] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300"
               >
-                Falar com a Dra. Letícia
+                Falar com a Dra. Fernanda
               </a>
             </div>
           </motion.div>

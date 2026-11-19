@@ -32,10 +32,10 @@ export const FloatingWhatsApp: React.FC = () => {
 
       {/* WhatsApp Action Button */}
       <motion.a
-        href="https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20gostaria%20de%20agendar%20uma%20consulta%20de%20avaliação."
+        href="https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20gostaria%20de%20agendar%20uma%20consulta%20de%20avaliação."
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Falar com a Dra. Letícia no WhatsApp"
+        aria-label="Falar com a Dra. Fernanda no WhatsApp"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: 'spring', damping: 15, delay: 0.6 }}

@@ -52,21 +52,28 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-14 border-b border-[#1A1614]">
           {/* COLUMN 1: Brand & Logo */}
           <div className="lg:col-span-4 flex flex-col justify-start">
-            <a href="#inicio" className="group inline-block mb-4">
+            <a href="#inicio" className="group flex flex-col mb-4 w-fit">
               <span className="font-serif italic text-3xl sm:text-[34px] tracking-tight text-[#F3EBE3] font-normal group-hover:text-white transition-colors">
-                Dra. Letícia Almeida
+                Dra. Fernanda Ragadalli
               </span>
-              <span className="block text-[10px] sm:text-[11px] tracking-[0.24em] uppercase text-[#C5A880] font-medium mt-0.5">
-                Harmonização Facial
+              <span
+                aria-label="Estética Dental"
+                className="w-full flex justify-between items-center text-[10px] sm:text-[11px] uppercase text-[#C5A880] font-medium mt-0.5 select-none"
+              >
+                {'ESTÉTICA DENTAL'.split('').map((char, index) => (
+                  <span key={index} aria-hidden="true">
+                    {char === ' ' ? '\u00A0\u00A0' : char}
+                  </span>
+                ))}
               </span>
             </a>
 
             <p className="font-sans text-xs sm:text-sm text-[#F3EBE3]/75 leading-relaxed font-light max-w-sm mb-6">
-              Harmonização Orofacial e protocolos de Full Face de alto padrão anatômico, focados em rejuvenescimento elegante, sustentação e naturalidade em Rio Verde - GO.
+              Facetas em resina e lentes em cerâmica com alto padrão estético, focadas em elegância, naturalidade e preservação dental em Videira - SC.
             </p>
 
             <div className="inline-flex items-center gap-2 text-[11px] text-[#C5A880] font-medium tracking-wider uppercase bg-[#131110] px-3.5 py-1.5 rounded-full border border-[#241F1C] w-fit">
-              <span>Dra. Letícia Almeida · Especialista em Full Face</span>
+              <span>Dra. Fernanda Ragadalli · CRO-SC 9331</span>
             </div>
           </div>
 
@@ -126,7 +133,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <div className="flex items-center gap-5 pt-1">
               {/* WhatsApp Icon */}
               <a
-                href="https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20gostaria%20de%20agendar%20uma%20consulta."
+                href="https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20gostaria%20de%20agendar%20uma%20consulta."
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp Oficial"
@@ -137,7 +144,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
 
               {/* Instagram Icon */}
               <a
-                href="https://www.instagram.com/draleticialbalmeida/"
+                href="https://www.instagram.com/drafernandaragadalli/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram Oficial"
@@ -148,7 +155,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </div>
 
             <p className="text-xs text-[#C5A880] mt-4 font-medium">
-              @draleticialbalmeida
+              @drafernandaragadalli
             </p>
           </div>
         </div>
@@ -156,10 +163,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* BOTTOM COPYRIGHT */}
         <div className="pt-8 text-center">
           <p className="font-sans text-xs text-[#F3EBE3]/65 font-normal tracking-wide">
-            © 2026 Dra. Letícia Almeida. Todos os direitos reservados.
+            © 2026 Dra. Fernanda Ragadalli. Todos os direitos reservados.
           </p>
           <p className="text-[11px] text-[#F3EBE3]/40 mt-1 font-light">
-            Responsável Técnica: Dra. Letícia Almeida · Cirurgiã-Dentista · Rio Verde - GO
+            Responsável Técnica: Dra. Fernanda Ragadalli · Cirurgiã-Dentista · CRO-SC 9331 · Videira - SC
           </p>
         </div>
       </div>

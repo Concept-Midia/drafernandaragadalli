@@ -2,16 +2,16 @@ import React from 'react';
 
 export const Marquee: React.FC = () => {
   const items = [
-    'Método Full Face',
-    'Harmonização Orofacial',
-    'Preenchimento Labial',
-    'Bioestimuladores de Colágeno',
-    'Toxina Botulínica',
-    'Mentoria HOF',
-    'Rinomodelação Estruturada',
-    'Sustentação & Contorno',
-    'Skinbooster & Glow',
-    'Rejuvenescimento Natural',
+    'Facetas de Resina',
+    'Lentes em Cerâmica',
+    'Estética Dental com Naturalidade',
+    'Transformação do Sorriso',
+    'Design do Sorriso',
+    'Clareamento Dental Avançado',
+    'Reabilitação Oral Estética',
+    'Fechamento de Diastemas',
+    'Harmonia do Sorriso',
+    'Odontologia de Alta Precisão',
   ];
 
   // Duplicate items for infinite seamless scroll

@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, ScanFace, Syringe, Sparkles, Sparkle, Droplets } from 'lucide-react';
+import { ArrowUpRight, Sparkles, Sparkle, Smile, ShieldCheck, Layers, Sun } from 'lucide-react';
 import { RollInHeading } from './RollInHeading';
 
-// Minimalist Luxury Lips Icon matching Lucide stroke style
-const LipsIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5' }) => (
+// Minimalist Luxury Tooth / Veneer Icon matching Lucide stroke style
+const ToothIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5' }) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
@@ -14,12 +14,7 @@ const LipsIcon: React.FC<{ className?: string }> = ({ className = 'w-5 h-5' }) =
     strokeLinejoin="round"
     className={className}
   >
-    {/* Upper lip with Cupid's bow */}
-    <path d="M2.5 12c2.2-3 5.5-4.2 9.5-1.8 4-2.4 7.3-1.2 9.5 1.8-2.2 2-5 3.5-9.5 3.5S4.7 14 2.5 12Z" />
-    {/* Center lip separation line */}
-    <path d="M2.5 12c3.5 1.2 6.5 1.6 9.5 1.6s6-.4 9.5-1.6" />
-    {/* Lower lip bottom fullness curve */}
-    <path d="M6.5 13.5c1.8 3.5 3.8 4.5 5.5 4.5s3.7-1 5.5-4.5" />
+    <path d="M7 3C4.5 3 3 5 3 8c0 4 2 8 3.5 12 .8 2 2.5 2 3.5 0 .8-1.7 1.2-3.5 2-3.5s1.2 1.8 2 3.5c1 2 2.7 2 3.5 0C19 16 21 12 21 8c0-3-1.5-5-4-5-2 0-3.5 1.5-5 1.5S9 3 7 3Z" />
   </svg>
 );
 
@@ -42,7 +37,7 @@ const ProcedureCard: React.FC<ProcedureCardProps> = ({
   delay = 0,
   className = '',
 }) => {
-  const whatsappUrl = `https://wa.me/5511999999999?text=Olá%20Dra.%20Letícia,%20gostaria%20de%20saber%20mais%20e%20agendar%20o%20procedimento%20de%20${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/5511999999999?text=Olá%20Dra.%20Fernanda,%20gostaria%20de%20saber%20mais%20e%20agendar%20o%20tratamento%20de%20${encodeURIComponent(
     title
   )}.`;
 
@@ -122,7 +117,7 @@ export const Procedimentos: React.FC = () => {
               viewport={{ once: true }}
               className="text-xs font-semibold uppercase tracking-[0.24em] text-[#C5A880] block mb-3"
             >
-              Protocolos & Procedimentos
+              Tratamentos & Estética Dental
             </motion.span>
             <RollInHeading
               as="h2"
@@ -130,8 +125,9 @@ export const Procedimentos: React.FC = () => {
               words={[
                 { text: 'Tratamentos' },
                 { text: 'para', hasLineBreak: true },
-                { text: 'cada', isItalic: true, colorClass: 'text-[#C5A880]' },
-                { text: 'necessidade', isItalic: true, colorClass: 'text-[#C5A880]' },
+                { text: 'o', isItalic: true, colorClass: 'text-[#C5A880]' },
+                { text: 'sorriso', isItalic: true, colorClass: 'text-[#C5A880]' },
+                { text: 'perfeito', isItalic: true, colorClass: 'text-[#C5A880]' },
               ]}
             />
           </div>
@@ -145,7 +141,7 @@ export const Procedimentos: React.FC = () => {
             className="md:max-w-md"
           >
             <p className="font-sans text-base sm:text-lg text-[#F3EBE3]/80 leading-relaxed font-light">
-              Planejo cada protocolo de forma anatômica e integrada para valorizar seus traços únicos: rejuvenescimento natural, estruturação óssea e harmonia global sem exageros.
+              Planejo cada detalhe de forma personalizada para realçar a beleza única do seu sorriso: facetas de resina, lentes em cerâmica e estética com alta naturalidade em Videira - SC.
             </p>
           </motion.div>
         </div>
@@ -155,64 +151,64 @@ export const Procedimentos: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-5 sm:gap-6 items-stretch">
             
             {/* LINHA 1 */}
-            {/* 1. Método Full Face (Largo - 6 colunas, surge da esquerda) */}
+            {/* 1. Facetas de Resina Composta (Largo - 6 colunas, surge da esquerda) */}
             <ProcedureCard
-              icon={ScanFace}
-              title="Método Full Face"
-              subtitle="Visão anatômica global e integrada da face: combinamos pontos estratégicos de sustentação, volume e refinamento em um plano único para rejuvenescimento autêntico."
+              icon={ToothIcon}
+              title="Facetas de Resina"
+              subtitle="Escultura minuciosa camada por camada diretamente sobre os dentes, corrigindo cor, formato, proporções e alinhamento com preservação biológica máxima e resultado rápido."
               isWide={true}
               direction="left"
               delay={0.05}
               className="md:col-span-1 lg:col-span-6"
             />
 
-            {/* 2. Preenchimento labial (Normal - 3 colunas, surge da direita) */}
+            {/* 2. Lentes em Cerâmica (Normal - 3 colunas, surge da direita) */}
             <ProcedureCard
-              icon={LipsIcon}
-              title="Preenchimento labial"
-              subtitle="Volume, contorno e hidratação profunda com ácido hialurônico, preservando a anatomia e delicadeza do seu sorriso."
+              icon={Sparkles}
+              title="Lentes em Cerâmica"
+              subtitle="Lâminas cerâmicas ultrafinas de alta resistência e translucidez idêntica ao dente natural, proporcionando longevidade e estética incomparáveis."
               direction="right"
               delay={0.18}
               className="md:col-span-1 lg:col-span-3"
             />
 
-            {/* 3. Toxina botulínica (Normal - 3 colunas, surge da esquerda) */}
+            {/* 3. Clareamento Dental (Normal - 3 colunas, surge da esquerda) */}
             <ProcedureCard
-              icon={Syringe}
-              title="Toxina botulínica"
-              subtitle="Prevenção e suavização precisa de rugas dinâmicas e linhas de expressão, mantendo a expressividade leve e descansada."
+              icon={Sun}
+              title="Clareamento Dental"
+              subtitle="Protocolos modernos e supervisionados para clarear com segurança, conforto e previsibilidade, realçando a luminosidade do seu sorriso."
               direction="left"
               delay={0.30}
               className="md:col-span-1 lg:col-span-3"
             />
 
             {/* LINHA 2 */}
-            {/* 4. Protocolo pele de boneca (Normal - 3 colunas, surge da direita) */}
+            {/* 4. Fechamento de Diastemas (Normal - 3 colunas, surge da direita) */}
             <ProcedureCard
-              icon={Sparkles}
-              title="Protocolo pele de boneca"
-              subtitle="Tecnologia avançada para fechamento de poros, viço radiante e textura aveludada, com renovação profunda e luminosidade duradoura."
+              icon={Layers}
+              title="Fechamento de Diastemas"
+              subtitle="Eliminação precisa de espaços indesejados entre os dentes, restabelecendo a continuidade e harmonia estética do arco dental sem desgastes agressivos."
               direction="right"
               delay={0.42}
               className="md:col-span-1 lg:col-span-3"
             />
 
-            {/* 5. Harmonização facial (Largo - 6 colunas, surge da esquerda) */}
+            {/* 5. Reabilitação Estética do Sorriso (Largo - 6 colunas, surge da esquerda) */}
             <ProcedureCard
-              icon={Sparkle}
-              title="Harmonização facial"
-              subtitle="Equilíbrio, proporção áurea e realce da sua beleza autêntica com planejamento tridimensional individualizado e máxima sofisticação."
+              icon={Smile}
+              title="Design & Estética do Sorriso"
+              subtitle="Planejamento integral personalizado que harmoniza forma, proporção áurea e mímica labial para um sorriso simétrico, jovem e verdadeiramente natural."
               isWide={true}
               direction="left"
               delay={0.54}
               className="md:col-span-1 lg:col-span-6"
             />
 
-            {/* 6. Protocolo para acne (Normal - 3 colunas, surge da direita) */}
+            {/* 6. Manutenção & Polimento (Normal - 3 colunas, surge da direita) */}
             <ProcedureCard
-              icon={Droplets}
-              title="Protocolo para acne"
-              subtitle="Controle intensivo da oleosidade, renovação celular profunda e cicatrização uniforme para uma pele restaurada e saudável."
+              icon={ShieldCheck}
+              title="Manutenção & Polimento"
+              subtitle="Cuidados periódicos de acabamento, brilho vitrificado e controle clínico para assegurar a perenidade e saúde do seu tratamento."
               direction="right"
               delay={0.66}
               className="md:col-span-1 lg:col-span-3"

@@ -24,7 +24,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
             Termos e Condições
           </h1>
           <p className="text-sm text-charcoal-700/80">
-            Dra. Letícia Almeida · Especialista em Full Face & HOF · Atualizado em 2026
+            Dra. Fernanda Ragadalli · Cirurgiã-Dentista · CRO-SC 9331 · Atualizado em 2026
           </p>
         </div>
 
@@ -35,7 +35,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
               1. Finalidade Informativa da Plataforma
             </h2>
             <p>
-              Este site institucional tem como propósito exclusivo apresentar a prática clínica, a formação técnica e os protocolos desenvolvidos pela <strong>Dra. Letícia Almeida</strong>. Nenhuma informação contida nesta página substitui a consulta presencial de avaliação individualizada.
+              Este site institucional tem como propósito exclusivo apresentar a prática clínica, a formação técnica e os protocolos desenvolvidos pela <strong>Dra. Fernanda Ragadalli</strong>. Nenhuma informação contida nesta página substitui a consulta presencial de avaliação individualizada.
             </p>
           </section>
 
@@ -44,7 +44,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
               2. Consulta de Avaliação e Planos de Tratamento
             </h2>
             <p>
-              A indicação de qualquer procedimento estético ou de harmonização (incluindo preenchimentos com ácido hialurônico, toxina botulínica, fios de sustentação e bioestimuladores de colágeno) é realizada única e exclusivamente após anamnese presencial detalhada, respeitando as condições de saúde, contraindicações e anseios individuais de cada paciente.
+              A indicação de qualquer tratamento odontológico ou estético (incluindo facetas de resina composta, lentes em cerâmica, clareamento dental e estética do sorriso) é realizada única e exclusivamente após anamnese e avaliação presencial detalhada, respeitando a biologia bucal, indicações e anseios individuais de cada paciente.
             </p>
           </section>
 
@@ -53,7 +53,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
               3. Resultados e Individualidade Biológica
             </h2>
             <p>
-              A área da saúde estética respeita a individualidade biológica e os resultados de procedimentos podem variar de acordo com características individuais, estrutura anatômica, idade e hábitos de vida de cada paciente. A Dra. Letícia Almeida atua pautada nas melhores práticas clínicas e científicas, priorizando sempre a segurança, a saúde e a sutileza dos resultados.
+              A odontologia estética respeita a individualidade biológica e os resultados de tratamentos podem variar de acordo com características individuais, anatomia dental, oclusão e hábitos de vida de cada paciente. A Dra. Fernanda Ragadalli atua pautada nas melhores práticas clínicas e científicas, priorizando sempre a segurança, a saúde e a sutileza dos resultados.
             </p>
           </section>
 
@@ -62,7 +62,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
               4. Direitos Autorais e Propriedade Intelectual
             </h2>
             <p>
-              Todos os textos, imagens, marcas, fotografias e logotipos contidos nesta página são de titularidade da Dra. Letícia Almeida ou licenciados para seu uso exclusivo. É estritamente proibida a reprodução, cópia ou distribuição sem prévia e expressa autorização por escrito.
+              Todos os textos, imagens, marcas, fotografias e logotipos contidos nesta página são de titularidade da Dra. Fernanda Ragadalli ou licenciados para seu uso exclusivo. É estritamente proibida a reprodução, cópia ou distribuição sem prévia e expressa autorização por escrito.
             </p>
           </section>
 
@@ -71,7 +71,7 @@ export const TermosCondicoes: React.FC<{ onBack: () => void }> = ({ onBack }) =>
               5. Agendamentos e Cancelamentos
             </h2>
             <p>
-              Os horários de atendimento são reservados com exclusividade para cada paciente em Rio Verde - GO. Em caso de necessidade de reagendamento ou cancelamento, solicitamos aviso prévio com pelo menos 24 horas de antecedência através do canal oficial no WhatsApp.
+              Os horários de atendimento são reservados com exclusividade para cada paciente em Videira - SC. Em caso de necessidade de reagendamento ou cancelamento, solicitamos aviso prévio com pelo menos 24 horas de antecedência através do canal oficial no WhatsApp.
             </p>
           </section>
         </div>

@@ -15,22 +15,22 @@ const testimonialsCol1: Testimonial[] = [
     id: 1,
     initial: 'J',
     name: 'JOANA COSTA',
-    procedure: 'Método Full Face',
-    text: '"Sempre tive receio de perder meus traços, mas o trabalho da Dra. Letícia é pura arte. O resultado do Full Face ficou incrivelmente sutil, descansado e elegante. Minha autoestima renasceu."',
+    procedure: 'Facetas de Resina',
+    text: '"Sempre tive vergonha de sorrir por causa do formato dos meus dentes. O trabalho da Dra. Fernanda é pura arte e delicadeza. As facetas de resina ficaram super naturais e leves. Minha autoestima renasceu."',
   },
   {
     id: 2,
     initial: 'M',
     name: 'MARIA SILVA',
-    procedure: 'Harmonização Orofacial',
-    text: '"Atendimento impecável do início ao fim. A Dra. Letícia tem um olhar anatômico único e explica cada etapa com muita clareza. Me senti completamente segura."',
+    procedure: 'Lentes em Cerâmica',
+    text: '"Atendimento impecável do início ao fim. A Dra. Fernanda tem um olhar estético único e planejou cada detalhe do meu sorriso. O resultado ficou maravilhoso, ninguém diz que não são meus dentes naturais."',
   },
   {
     id: 3,
     initial: 'R',
     name: 'RENATA VASCONCELOS',
-    procedure: 'Bioestimulador de Colágeno',
-    text: '"Fiz o bioestimulador e o viço e a firmeza da minha pele nunca estiveram tão perfeitos. Todo mundo elogia e ninguém diz que fiz procedimento."',
+    procedure: 'Estética Dental',
+    text: '"Fiz o fechamento de diastema com a Dra. Fernanda e o resultado superou todas as expectativas. Todo mundo elogia meu sorriso e a harmonia que ele trouxe para o meu rosto."',
   },
 ];
 
@@ -39,22 +39,22 @@ const testimonialsCol2: Testimonial[] = [
     id: 4,
     initial: 'B',
     name: 'BEATRIZ NOGUEIRA',
-    procedure: 'Preenchimento Labial',
-    text: '"O consultório em Rio Verde é lindo e acolhedor. A Dra. Letícia tem mãos de fada, zero dor e meus lábios ficaram exatamente com o contorno e hidratação que sonhei."',
+    procedure: 'Facetas de Resina',
+    text: '"A clínica em Videira é linda, acolhedora e moderna. A Dra. Fernanda tem mãos de fada, zero dor e minhas facetas ficaram exatamente no tom e formato que sempre sonhei."',
   },
   {
     id: 5,
     initial: 'A',
     name: 'ANA PAULA RESENDE',
-    procedure: 'Full Face & Sustentação',
-    text: '"Minha experiência foi transformadora. O planejamento global da face fez toda a diferença, restaurou meus volumes sem deixar nada pesado. Uma verdadeira profissional de excelência."',
+    procedure: 'Lentes de Contato Dental',
+    text: '"Minha experiência foi transformadora. O planejamento do sorriso fez toda a diferença, entregou simetria e elegância sem nenhum exagero. Uma profissional exemplar!"',
   },
   {
     id: 6,
     initial: 'G',
     name: 'GABRIELA MENDES',
-    procedure: 'Rinomodelação Estruturada',
-    text: '"Fiz rinomodelação com a Dra. Letícia e fiquei encantada. O perfil ficou perfeito, delicado e harmônico com o restante do meu rosto. Recomendo de olhos fechados!"',
+    procedure: 'Design do Sorriso',
+    text: '"Fiz a transformação do sorriso com a Dra. Fernanda e fiquei encantada. A naturalidade e o brilho das facetas ficaram perfeitos. Recomendo de olhos fechados em Videira!"',
   },
 ];
 
@@ -63,22 +63,22 @@ const testimonialsCol3: Testimonial[] = [
     id: 7,
     initial: 'J',
     name: 'JULIANA MARTINS',
-    procedure: 'Toxina Botulínica',
-    text: '"Meu botox com a Dra. Letícia ficou impecável. Linhas suavizadas, olhar aberto e descansado, mantendo a minha expressão totalmente natural."',
+    procedure: 'Clareamento & Facetas',
+    text: '"O combo de clareamento com facetas ficou impecável. Dentes alinhados, claros e com uma luminosidade natural que mudou completamente a minha expressão."',
   },
   {
     id: 8,
     initial: 'C',
     name: 'CAMILA FREITAS',
-    procedure: 'Harmonização Facial',
-    text: '"A sensibilidade e a precisão da Dra. Letícia são incomparáveis. Dá para sentir a paixão e a autoridade que ela tem na área. Virei paciente fiel e fã número um!"',
+    procedure: 'Facetas em Resina',
+    text: '"A sensibilidade e a precisão da Dra. Fernanda são incomparáveis. Dá para sentir a paixão e o cuidado com cada paciente. Virei fã número um!"',
   },
   {
     id: 9,
-    initial: 'F',
-    name: 'FERNANDA LIMA',
-    procedure: 'Protocolo Glow & Firmeza',
-    text: '"Sensibilidade única. Saí da clínica me sentindo leve, linda e com a certeza absoluta de ter encontrado a melhor profissional de HOF da região."',
+    initial: 'P',
+    name: 'PATRÍCIA LIMA',
+    procedure: 'Transformação do Sorriso',
+    text: '"Cuidado e dedicação únicos. Saí da clínica me sentindo realizada e segura para sorrir sem receio. A melhor dentista para facetas da nossa região."',
   },
 ];
 
@@ -184,7 +184,7 @@ export const Depoimentos: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-sans text-base sm:text-lg text-[#F3EBE3]/75 max-w-2xl mx-auto font-light leading-relaxed"
         >
-          A confiança de cada paciente é o maior reflexo da dedicação e precisão que entrego em cada plano de tratamento em Rio Verde - GO.
+          A confiança de cada paciente é o maior reflexo da dedicação e precisão que entrego em cada transformação em Videira - SC.
         </motion.p>
       </div>
 
